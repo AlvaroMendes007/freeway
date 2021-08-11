@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ganhou.wav-1c7f4149058526eb7ff13e6d6a849d6e.sample"
+
+[deps]
+
+source_file="res://Material freeway/sons/ganhou.wav"
+dest_files=[ "res://.import/ganhou.wav-1c7f4149058526eb7ff13e6d6a849d6e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ponto.wav-fc16e73759c78074380da326a22f717d.sample"
+
+[deps]
+
+source_file="res://Material freeway/sons/ponto.wav"
+dest_files=[ "res://.import/ponto.wav-fc16e73759c78074380da326a22f717d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

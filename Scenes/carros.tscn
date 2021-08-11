@@ -1,0 +1,110 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Material freeway/carros/coches (1).png" type="Texture" id=1]
+[ext_resource path="res://Material freeway/carros/coches (2).png" type="Texture" id=2]
+[ext_resource path="res://Material freeway/carros/coches (3).png" type="Texture" id=3]
+[ext_resource path="res://Material freeway/carros/coches (4).png" type="Texture" id=4]
+[ext_resource path="res://Material freeway/carros/coches (7).png" type="Texture" id=5]
+[ext_resource path="res://Material freeway/carros/coches (8).png" type="Texture" id=6]
+[ext_resource path="res://Material freeway/carros/coches (11).png" type="Texture" id=7]
+[ext_resource path="res://Material freeway/carros/coches (12).png" type="Texture" id=8]
+[ext_resource path="res://Material freeway/carros/coches (9).png" type="Texture" id=9]
+[ext_resource path="res://Material freeway/carros/coches (10).png" type="Texture" id=10]
+[ext_resource path="res://Material freeway/carros/coches (5).png" type="Texture" id=11]
+[ext_resource path="res://Material freeway/carros/coches (6).png" type="Texture" id=12]
+[ext_resource path="res://Material freeway/carros/coches (14).png" type="Texture" id=13]
+[ext_resource path="res://Material freeway/carros/coches (13).png" type="Texture" id=14]
+[ext_resource path="res://Scripts/carros.gd" type="Script" id=15]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "carro 1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "carro 3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "carro 2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "carro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "carro 10",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "carro 13",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ) ],
+"loop": true,
+"name": "carro 12",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "carro 8",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "carro 5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "carro 6",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "carro 7",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "carro 4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "carro 9",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "carro 11",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 21.827, 12.7639 )
+
+[node name="carros" type="RigidBody2D"]
+gravity_scale = 0.0
+script = ExtResource( 15 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+rotation = 1.5708
+scale = Vector2( 0.2, 0.2 )
+frames = SubResource( 1 )
+animation = "carro 13"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]

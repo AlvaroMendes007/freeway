@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/colide.wav-f515197099492d5d7701107d5149e762.sample"
+
+[deps]
+
+source_file="res://Material freeway/sons/colide.wav"
+dest_files=[ "res://.import/colide.wav-f515197099492d5d7701107d5149e762.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

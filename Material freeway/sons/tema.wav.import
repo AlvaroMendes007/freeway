@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/tema.wav-5cbd1f8cfe0f0b8d8525a3216dc8a52a.sample"
+
+[deps]
+
+source_file="res://Material freeway/sons/tema.wav"
+dest_files=[ "res://.import/tema.wav-5cbd1f8cfe0f0b8d8525a3216dc8a52a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

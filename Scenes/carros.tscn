@@ -18,24 +18,14 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
-"loop": true,
-"name": "carro 1",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 4 ) ],
-"loop": true,
-"name": "carro 3",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 3 ) ],
-"loop": true,
-"name": "carro 2",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 1 ) ],
 "loop": true,
 "name": "carro",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "carro 1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 7 ) ],
@@ -43,9 +33,9 @@ animations = [ {
 "name": "carro 10",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 13 ) ],
+"frames": [ ExtResource( 8 ) ],
 "loop": true,
-"name": "carro 13",
+"name": "carro 11",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 14 ) ],
@@ -53,9 +43,24 @@ animations = [ {
 "name": "carro 12",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 9 ) ],
+"frames": [ ExtResource( 13 ) ],
 "loop": true,
-"name": "carro 8",
+"name": "carro 13",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "carro 2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "carro 3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "carro 4",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 12 ) ],
@@ -73,19 +78,14 @@ animations = [ {
 "name": "carro 7",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 11 ) ],
+"frames": [ ExtResource( 9 ) ],
 "loop": true,
-"name": "carro 4",
+"name": "carro 8",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 10 ) ],
 "loop": true,
 "name": "carro 9",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ) ],
-"loop": true,
-"name": "carro 11",
 "speed": 5.0
 } ]
 
